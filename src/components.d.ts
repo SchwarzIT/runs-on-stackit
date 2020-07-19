@@ -15,6 +15,7 @@ export namespace Components {
           * To use runs-on-stackit-badge or runson = Runs On badge poweredby = Powered By color badge
          */
         "badgeType": "badge" | "ribbon" | "flag";
+        "badgeWidth": any;
         /**
           * To use cd instead local assets
          */
@@ -46,6 +47,7 @@ declare namespace LocalJSX {
           * To use runs-on-stackit-badge or runson = Runs On badge poweredby = Powered By color badge
          */
         "badgeType"?: "badge" | "ribbon" | "flag";
+        "badgeWidth"?: any;
         /**
           * To use cd instead local assets
          */

@@ -1,4 +1,4 @@
-import {Component, Prop, h, getAssetPath} from '@stencil/core';
+import {Component, Prop, h, getAssetPath, Host} from '@stencil/core';
 
 @Component({
   tag: 'stackit-badge',
@@ -32,6 +32,8 @@ export class STACKITBadgeComponent {
    * petrol = petrol color badge
    */
   @Prop() readonly badgeColor: 'petrol' | 'white' | 'yellow' = 'petrol';
+
+  @Prop() readonly badgeWidth;
 
   private getBadgeType() {
     switch (this.badgeType) {
@@ -78,9 +80,13 @@ export class STACKITBadgeComponent {
 
   render() {
     return (
-      <a href="https://stackit.de" title="STACKIT">
-        <img width={this.badgeType === 'badge' ? "200" : "96"} src={this.getSrc()}/>
-      </a>
+      <Host>
+        <a href="https://stackit.de" title="STACKIT">
+          <img
+            width={this.badgeType === 'badge' ? (this.badgeWidth ? this.badgeWidth : "200") : (this.badgeWidth ? this.badgeWidth : "96")}
+            src={this.getSrc()}/>
+        </a>
+      </Host>
     );
   }
 }

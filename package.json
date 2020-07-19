@@ -1,6 +1,6 @@
 {
   "name": "@schwarzit/runs-on-stackit",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "With the STACKIT-Badge you can mark internal and external websites and applications that run on, are sponsored or supported by STACKIT.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -11,8 +11,7 @@
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/runs-on-stackit/runs-on-stackit.js",
   "files": [
-    "dist/",
-    "loader/"
+    "dist/"
   ],
   "scripts": {
     "build": "stencil build --docs",

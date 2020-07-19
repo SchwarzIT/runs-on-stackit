@@ -10,11 +10,14 @@ export namespace Components {
         /**
           * Define which badge color to use. yellow = yellow color badge petrol = petrol color badge
          */
-        "badgeColor": "petrol" | "white" | "yellow";
+        "badgeColor": 'petrol' | 'white' | 'yellow';
         /**
           * To use runs-on-stackit-badge or runson = Runs On badge poweredby = Powered By color badge
          */
-        "badgeType": "badge" | "ribbon" | "flag";
+        "badgeType": 'badge' | 'ribbon' | 'flag';
+        /**
+          * Width of the badges. Defaults to 200 for badge and 96 for ribbon or flag.
+         */
         "badgeWidth": any;
         /**
           * To use cd instead local assets
@@ -23,7 +26,7 @@ export namespace Components {
         /**
           * To use runs-on or powered-by badge runson = Runs On badge poweredby = Powered By color badge
          */
-        "hostingType": "runson" | "poweredby";
+        "hostingType": 'runson' | 'poweredby';
     }
 }
 declare global {
@@ -42,11 +45,14 @@ declare namespace LocalJSX {
         /**
           * Define which badge color to use. yellow = yellow color badge petrol = petrol color badge
          */
-        "badgeColor"?: "petrol" | "white" | "yellow";
+        "badgeColor"?: 'petrol' | 'white' | 'yellow';
         /**
           * To use runs-on-stackit-badge or runson = Runs On badge poweredby = Powered By color badge
          */
-        "badgeType"?: "badge" | "ribbon" | "flag";
+        "badgeType"?: 'badge' | 'ribbon' | 'flag';
+        /**
+          * Width of the badges. Defaults to 200 for badge and 96 for ribbon or flag.
+         */
         "badgeWidth"?: any;
         /**
           * To use cd instead local assets
@@ -55,7 +61,7 @@ declare namespace LocalJSX {
         /**
           * To use runs-on or powered-by badge runson = Runs On badge poweredby = Powered By color badge
          */
-        "hostingType"?: "runson" | "poweredby";
+        "hostingType"?: 'runson' | 'poweredby';
     }
     interface IntrinsicElements {
         "stackit-badge": StackitBadge;

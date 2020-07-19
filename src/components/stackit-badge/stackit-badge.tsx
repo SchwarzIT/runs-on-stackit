@@ -33,6 +33,9 @@ export class STACKITBadgeComponent {
    */
   @Prop() readonly badgeColor: 'petrol' | 'white' | 'yellow' = 'petrol';
 
+  /**
+   * Width of the badges. Defaults to 200 for badge and 96 for ribbon or flag.
+   */
   @Prop() readonly badgeWidth;
 
   private getBadgeType() {

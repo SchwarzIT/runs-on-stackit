@@ -23,4 +23,4 @@ You can configure the badge color and hosting type with ```badge-color``` and ``
 
      <stackit-badge hosting-type="poweredby" badge-color="yellow"></stackit-badge>
      
-Attentions the color white is only working on the badge of type ```flag``` and Powered-By is only available for badge of type ```badge```
+Attention: The color ```white``` is only working on the badge of type ```flag``` and ```poweredby``` is only available for badges of type ```badge```

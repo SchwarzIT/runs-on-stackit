@@ -47,7 +47,7 @@ export class STACKITBadgeComponent {
       case 'flag':
         return 'Flag'
       default:
-        return 'Petrol'
+        return 'Badge'
     }
   }
 

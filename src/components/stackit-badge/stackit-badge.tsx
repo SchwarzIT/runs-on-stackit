@@ -65,7 +65,6 @@ export class STACKITBadgeComponent {
   }
 
   private getHostType() {
-    console.log(this.hostingType)
     switch (this.hostingType) {
       case 'runson':
         return 'Runs-On'

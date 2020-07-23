@@ -1,6 +1,6 @@
 {
   "name": "@schwarzit/runs-on-stackit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "With the STACKIT-Badge you can mark internal and external websites and applications that run on, are sponsored or supported by STACKIT.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

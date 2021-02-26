@@ -76,7 +76,7 @@ export class STACKITBadgeComponent {
   }
 
   private getSrc() {
-    return this.cdn ? 'https://cdn.apps.eu01.cloud.schwarz/assets/img/' + this.getHostType() + '-STACKIT-' + this.getBadgeType() + '-' + this.getBadgeColorScheme() + '.svg' :
+    return this.cdn ? 'https://cdn.apps.01.cf.eu01.stackit.cloud/assets/img/' + this.getHostType() + '-STACKIT-' + this.getBadgeType() + '-' + this.getBadgeColorScheme() + '.svg' :
       getAssetPath('../assets/stackit-' + this.badgeType + '/' + this.getHostType() + '-STACKIT-' + this.getBadgeType() + '-' + this.getBadgeColorScheme() + '.svg')
   }
 

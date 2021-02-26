@@ -1,9 +1,9 @@
 {
   "name": "@schwarzit/runs-on-stackit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "With the STACKIT-Badge you can mark internal and external websites and applications that run on, are sponsored or supported by STACKIT.",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
   "types": "dist/types/index.d.ts",
@@ -21,7 +21,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "^1.16.4"
+    "@stencil/core": "^2.4.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/SchwarzIT/runs-on-stackit",
